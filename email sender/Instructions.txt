@@ -1,0 +1,28 @@
+1. Convert PDF to Excel
+Convert a PDF file (presumably containing contact details) into an Excel file.
+Rename the Excel file to contacts.xlsx.
+
+2. Resume File
+Ensure the resume is in PDF format.
+Rename the file to resume.pdf.
+
+3. Automation Code Setup
+You have two Python scripts:
+
+sender.py:
+Sends emails to the list in contacts.xlsx.
+The email body can be customized directly in the script.
+
+validate.py:
+Validates email addresses before sending.
+Checks if the email exists or can receive mail.
+
+📁 Recommended Folder Structure
+
+email_sender_project/
+│
+├── contacts.xlsx         ← Converted Excel sheet from PDF
+├── resume.pdf            ← Your resume in PDF format
+├── sender.py             ← Main script to send emails
+├── validate.py           ← Validates email addresses
+
